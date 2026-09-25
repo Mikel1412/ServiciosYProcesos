@@ -17,11 +17,11 @@ public class Ejercicio1 {
             array1[i]=leer.nextInt();
         }
 
-        System.out.println("");
+        System.out.println();
         System.out.println("estos son los numeros");
 
-        for (int i=0;i<array1.length;i++) {
-            System.out.println(array1[i]);
+        for (int i : array1) {
+            System.out.println(i);
         }
 
     }

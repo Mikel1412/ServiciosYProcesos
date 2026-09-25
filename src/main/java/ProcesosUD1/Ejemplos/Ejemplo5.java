@@ -1,3 +1,5 @@
+package ProcesosUD1.Ejemplos;
+
 import java.io.*;
 
 public class Ejemplo5 {
@@ -15,7 +17,7 @@ public class Ejemplo5 {
 		// escritura -- envia entrada 
 		OutputStream os = p.getOutputStream();
 		os.write("Hola Manuel\n".getBytes());
-		os.flush(); // vacía el buffer de salida
+		os.flush(); // vacï¿½a el buffer de salida
 
 		// lectura -- obtiene la salida
 		InputStream is = p.getInputStream();
