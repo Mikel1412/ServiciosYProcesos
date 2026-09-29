@@ -6,8 +6,8 @@ public class Ejemplo5 {
 
 	public static void main(String[] args) throws IOException {
 
-		File directorio = new File(".\\bin");
-		ProcessBuilder pb = new ProcessBuilder("java", "EjemploLectura");
+		File directorio = new File("C:\\Users\\AlumnoD\\Desktop\\EjerciciosRepaso1y2_Servicios\\Mikel_DanielDR\\src\\main\\java\\ProcesosUD1\\Ejemplos");
+		ProcessBuilder pb = new ProcessBuilder("java", "Ejemplo04.java");
 
 		pb.directory(directorio);
 

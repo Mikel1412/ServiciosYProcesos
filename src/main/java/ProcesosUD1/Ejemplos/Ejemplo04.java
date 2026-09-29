@@ -5,9 +5,8 @@ import java.io.InputStream;
 import java.io.OutputStream;
 
 public class Ejemplo04 {
-
-	public static void main(String[] args) throws IOException {
-Process p = new ProcessBuilder("CMD","/C","DATE").start();
+    static void main(String[] args) throws IOException {
+Process p = new ProcessBuilder("CMD","\\C","DATE").start();
 //escritura
 OutputStream os = p.getOutputStream();
 os.write("15-06-18".getBytes());
