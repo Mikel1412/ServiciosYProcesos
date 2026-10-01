@@ -1,6 +1,6 @@
 package ProcesosUD1.Ejercicios;
 
-public class LeerNombre {
+public class LeerNombre1_1 {
     /*Crea un programa Java llamado LeerNombre.java que reciba desde los argumentos de
 main() un nombre y lo visualice en pantalla. Utiliza System.exit(0) para una finalización
 correcta del programa y System.exit(-1) para el caso en el que no se hayan introducido
@@ -9,7 +9,16 @@ Ejemplo3.java para ejecutar Leernombre.java. Utiliza el metodo waitFor() para
 comprobar el valor de salida del proceso que se ejecuta. Prueba la ejecución del
 programa pasando un parámetro y sin pasarlo. ¿Qué devuelve waitFor() en cada caso?*/
 
+    /**
+     *
+     * @param args Aqui recogemos el/los parametro/s que nos entran desde la consola u otro programa para utilizarlos mas tarde
+     *
+     * Lo que hacemos aqui es que si la longitud de args es mayor de 0, es decir, contiene información, mostraremos
+     * por pantalla lo que hemos introducido desde la consola.
+     * Si no hay nada, la consola nos devolverá -1 en el system exit
+     **/
     public static void main(String[] args) {
+
 
         if (args.length != 0){
             for(String arg : args){

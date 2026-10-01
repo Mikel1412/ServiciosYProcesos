@@ -4,6 +4,11 @@ import java.io.IOException;
 
 public class Ejemplo01 {
 
+	/**
+	 *
+	 * @throws IOException
+	 * Este programa nos abre el bloc de notas usando el processBuilder
+	 */
 	public static void main(String[] args) throws IOException  {
 		// TODO Auto-generated method stub
 		 ProcessBuilder pb = new ProcessBuilder("NOTEPAD");

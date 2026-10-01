@@ -5,6 +5,11 @@ import java.io.InputStream;
 
 public class Ejemplo02 {
 
+    /**
+     *
+     * @throws IOException
+     * En este programa abrimos el simbolo del sistema, nos posicionamos en el directorio "C" y ejecutamos un DIR
+     */
 	public static void main(String[] args) throws IOException {
 		// TODO Auto-generated method stub
 		//Ejecutamos el proceso DIR

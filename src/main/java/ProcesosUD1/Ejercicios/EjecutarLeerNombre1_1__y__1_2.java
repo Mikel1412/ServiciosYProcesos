@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.time.Duration;
 
-public class LeerNombre2 {
+public class EjecutarLeerNombre1_1__y__1_2 {
     /*Crea un programa Java llamado LeerNombre.java que reciba desde los argumentos de
 main() un nombre y lo visualice en pantalla. Utiliza System.exit(0) para una finalización
 correcta del programa y System.exit(-1) para el caso en el que no se hayan introducido
@@ -13,6 +13,11 @@ los argumentos correctos en main(). Posteriormente haz un programa similar a
 Ejemplo3.java para ejecutar Leernombre.java. Utiliza el metodo waitFor() para
 comprobar el valor de salida del proceso que se ejecuta. Prueba la ejecución del
 programa pasando un parámetro y sin pasarlo. ¿Qué devuelve waitFor() en cada caso?*/
+
+    /**
+     * @throws IOException lanzamos la excepcion para capturar los errores de la lectura de datos
+     * Aqui lo que hacemos es ejecutar un programa de java y nos devuelve la salida de la consola
+     */
 
     public static void main(String[] args) throws IOException {
 
