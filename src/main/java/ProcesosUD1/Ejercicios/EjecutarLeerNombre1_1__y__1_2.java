@@ -16,7 +16,7 @@ programa pasando un parámetro y sin pasarlo. ¿Qué devuelve waitFor() en cada 
 
     /**
      * @throws IOException lanzamos la excepcion para capturar los errores de la lectura de datos
-     * Aqui lo que hacemos es ejecutar un programa de java y nos devuelve la salida de la consola
+     * @apiNote   Aqui lo que hacemos es ejecutar un programa de java y nos devuelve la salida de la consola
      */
 
     public static void main(String[] args) throws IOException {
