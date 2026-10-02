@@ -6,19 +6,29 @@ import java.io.InputStream;
 
 public class Ejemplo03 {
 
+    /**
+     * @throws IOException
+     * @apiNote En este programa Ejecutamos el programa "Ejemplo2.java" con el processBuilder
+     * como hemos hecho en programas anteriores
+     */
 	public static void main(String[] args) throws IOException {
 		// TODO Auto-generated method stub
+
 		//creamos objeto File al directorio donde esta Ejemplo2
         //No olvidarse de poner en windows el .java despues del nombre de la clase
         File d = new File("C:\\Users\\AlumnoD\\Desktop\\EjerciciosRepaso1y2_Servicios\\Mikel_DanielDR\\src\\main\\java\\ProcesosUD1\\Ejemplos\\");
+
         //proceso a ejecutar es Ejemplo2
         ProcessBuilder pb = new ProcessBuilder("java","Ejemplo02.java");
+
         //establecemos el directorio donde esta el ejecutable
         pb.directory(d);
         System.out.print("Directorio de trabajo: ");
         System.out.println(pb.directory());
+
         //ejecutar proceso
         Process p = pb.start();
+
         //obtener la salida
         try {
             InputStream is = p.getInputStream();

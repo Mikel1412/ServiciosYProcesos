@@ -5,6 +5,11 @@ import java.io.InputStream;
 
 public class Ejemplo02b {
 
+    /**
+     * @throws IOException
+     * @apiNote En este programa lo que hacemos es mostrar caracter a caracter la salida del
+     * comando que ejecutamos en el process builder, si da error tambien mostramos el error por consola
+     */
 	public static void main(String[] args) throws IOException {
 		// TODO Auto-generated method stub
 

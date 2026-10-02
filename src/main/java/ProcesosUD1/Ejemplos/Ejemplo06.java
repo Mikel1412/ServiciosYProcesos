@@ -4,6 +4,13 @@ import java.io.*;
 import java.util.*;
 
 public class Ejemplo06 {
+	/**
+	 * @throws IOException
+	 * @apiNote el metodo enviroment() que usamos en esta clase nos devuelde las variables de
+	 * entorno del proceso que estamos ejecutando
+	 * @apiNote el metodo comand() [sin parametros]devuelve los argumentos del proceso definidos
+	 * en el ProcessBuilder
+	 */
 	 public static void main (String[] args) throws IOException{
 
 	        ProcessBuilder test = new ProcessBuilder();

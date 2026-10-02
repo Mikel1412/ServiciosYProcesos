@@ -9,7 +9,7 @@ public class EjecutarLeerDosNumeros {
 
     /**
      * @throws IOException
-     *Aqui lo que hacemos es ejecutar el programa LeerDosNumeros y nos devuelve la salida de la consola,
+     * @apiNote Aqui lo que hacemos es ejecutar el programa LeerDosNumeros y nos devuelve la salida de la consola,
      * tambien comprobamos que lo que recibe el programa por consola sean numeros y no otros caracteres
      */
     public static void main(String[] args) throws IOException {

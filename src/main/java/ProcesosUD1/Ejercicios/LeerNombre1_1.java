@@ -13,7 +13,7 @@ programa pasando un parámetro y sin pasarlo. ¿Qué devuelve waitFor() en cada 
      *
      * @param args Aqui recogemos el/los parametro/s que nos entran desde la consola u otro programa para utilizarlos mas tarde
      *
-     * Lo que hacemos aqui es que si la longitud de args es mayor de 0, es decir, contiene información, mostraremos
+     * @apiNote Lo que hacemos aqui es que si la longitud de args es mayor de 0, es decir, contiene información, mostraremos
      * por pantalla lo que hemos introducido desde la consola.
      * Si no hay nada, la consola nos devolverá -1 en el system exit
      **/
@@ -34,7 +34,7 @@ programa pasando un parámetro y sin pasarlo. ¿Qué devuelve waitFor() en cada 
 }
 
 //Para Ejecutarlo En La Terminal:
-//1.Desde La Terminal Entramos En La Carpeta ->
+//1.Desde La Terminal viajamos al directorio ->
 // C:\Users\AlumnoD\Desktop\EjerciciosRepaso1y2_Servicios\Mikel_DanielDR\src\main\java
 //O Donde Tengamos Ubicado El Proyecto
 

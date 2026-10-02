@@ -5,6 +5,15 @@ import java.io.InputStream;
 import java.io.OutputStream;
 
 public class Ejemplo04 {
+
+    /**
+     * @throws IOException
+     * @apiNote Este programa ejecuta el cmd y introduce una serie de comandos, nos permite
+     * introducirle datos gracias el metodo getOutputStream() y con el metodo write() se
+     * envian los bytes al stream, usaremos el metodo getBytes() dentro del metodo write()
+     * para que codifique la cadena
+     *
+     */
     static void main(String[] args) throws IOException {
 Process p = new ProcessBuilder("CMD","\\C","DATE").start();
 //escritura

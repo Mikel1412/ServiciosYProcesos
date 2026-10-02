@@ -4,6 +4,10 @@ import java.io.*;
 
 public class Ejemplo5 {
 
+	/**
+	 * @throws IOException
+	 *
+	 */
 	public static void main(String[] args) throws IOException {
 
 		File directorio = new File("C:\\Users\\AlumnoD\\Desktop\\EjerciciosRepaso1y2_Servicios\\Mikel_DanielDR\\src\\main\\java\\ProcesosUD1\\Ejemplos");
