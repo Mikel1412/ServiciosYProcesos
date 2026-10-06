@@ -20,7 +20,7 @@ public class EjecutarLeerDosNumeros {
         //creamos objeto File al directorio donde esta Ejemplo2
         //No olvidarse de poner en windows el .java despues del nombre de la clase
 
-        File d = new File("C:\\Users\\AlumnoD\\Desktop\\EjerciciosRepaso1y2_Servicios\\Mikel_DanielDR\\src\\main\\java\\ProcesosUD1\\Ejercicios");
+        File d = new File(".\\src\\main\\java\\ProcesosUD1\\Ejercicios");
 
         String num1;
         String num2;

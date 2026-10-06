@@ -17,7 +17,7 @@ public class Ejercicio1_4 {
 
         ProcessBuilder pb = new ProcessBuilder("java", ".\\src\\main\\java\\ProcesosUD1\\Ejemplos\\Ejemplo02.java");
 
-        File fBat = new File("fichero.bat");
+        File fBat = new File("src\\fichero.bat");
         File fOut = new File("salida.txt");
         File fErr = new File("error.txt");
 

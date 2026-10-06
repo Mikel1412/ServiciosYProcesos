@@ -1,4 +1,4 @@
-package EjercicioRepaso2;
+package EjerciciosDeRepaso.EjercicioRepaso1.EjercicioRepaso2;
 
 public class Alumno {
 

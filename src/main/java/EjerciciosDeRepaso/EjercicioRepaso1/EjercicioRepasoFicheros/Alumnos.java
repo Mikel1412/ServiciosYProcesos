@@ -1,4 +1,4 @@
-package EjercicioRepasoFicheros;
+package EjerciciosDeRepaso.EjercicioRepaso1.EjercicioRepasoFicheros;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
