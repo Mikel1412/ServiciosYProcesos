@@ -15,9 +15,9 @@ public class Ejercicio1_4 {
      */
     static void main(String[] args) throws IOException {
 
-        ProcessBuilder pb = new ProcessBuilder("java", ".\\src\\main\\java\\ProcesosUD1\\Ejemplos\\Ejemplo02.java");
+        ProcessBuilder pb = new ProcessBuilder("CMD");
 
-        File fBat = new File("src\\fichero.bat");
+        File fBat = new File("Aleatorio.bat");
         File fOut = new File("salida.txt");
         File fErr = new File("error.txt");
 

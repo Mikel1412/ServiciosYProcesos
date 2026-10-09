@@ -5,8 +5,28 @@ import java.io.IOException;
 import java.util.Scanner;
 
 public class Aleatorios {
-    static void main() throws IOException {
+    public static void main() throws IOException {
         Scanner sc = new Scanner(System.in);
+
+        File fErr = new File("error.txt");
+        ProcessBuilder pb =  new ProcessBuilder("CMD", "/c", "Aleatorio.bat");
+
+        String lineas="";
+        do {
+            System.out.println("Introduce un texto");
+            lineas = sc.nextLine();
+
+            pb.redirectError(fErr);
+
+            Process p =pb.start();
+
+            String resul = new String(p.getInputStream().readAllBytes());
+            System.out.println(resul);
+
+
+        }while(!lineas.equals("fin"));
+
+        /* Scanner sc = new Scanner(System.in);
 
         File f = new File(".\\src\\main\\java\\EjerciciosRA1\\Ejercicio3");
         ProcessBuilder  pb = new ProcessBuilder("java", "GenerarAleatorios.java");
@@ -28,6 +48,6 @@ public class Aleatorios {
         Process p =pb.start();
 
         String resul = new String(p.getInputStream().readAllBytes());
-        System.out.println(resul);
+        System.out.println(resul);*/
     }
 }

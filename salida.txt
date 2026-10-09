@@ -1,20 +1,4 @@
- El volumen de la unidad C no tiene etiqueta.
- El n£mero de serie del volumen es: 942E-E75D
+Microsoft Windows [Versi¢n 10.0.26300.9457]
+(c) Microsoft Corporation. Todos los derechos reservados.
 
- Directorio de C:\Users\AlumnoD\Desktop\EjerciciosRepaso1y2_Servicios\Mikel_DanielDR
-
-02/10/2026  10:19    <DIR>          .
-15/09/2026  10:49    <DIR>          ..
-15/09/2026  10:49               498 .gitignore
-02/10/2026  10:45    <DIR>          .idea
-15/09/2026  10:49    <DIR>          .mvn
-22/09/2026  09:27               103 alumnos.txt
-22/09/2026  09:43               105 alumnos_descendente.csv
-02/10/2026  11:03                 0 error.txt
-02/10/2026  10:23                38 fichero.bat
-15/09/2026  10:49               655 pom.xml
-02/10/2026  11:03                 0 salida.txt
-15/09/2026  10:51    <DIR>          src
-15/09/2026  10:52    <DIR>          target
-               7 archivos          1.399 bytes
-               6 dirs  392.430.563.328 bytes libres
+C:\Users\AlumnoD\Desktop\ServiciosYProcesos_Mikel>¨M s? 
