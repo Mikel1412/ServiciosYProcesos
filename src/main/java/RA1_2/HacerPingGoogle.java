@@ -6,10 +6,18 @@ import java.io.InputStream;
 public class HacerPingGoogle {
     static void main() throws IOException {
 
+        String[] sistemaElegido;
+        sistemaElegido = System.getProperty("os.name").split(" ");
 
+        Process p = null;
 
-        Process p = new ProcessBuilder("CMD", "/c", "ping", "-n", "4", "google.com").start();
-
+        if (sistemaElegido[0].equals("Windows")){
+            p = new ProcessBuilder("CMD", "/c", "ping", "-n", "4", "google.com").start();
+        } else if (sistemaElegido[0].equals("Linux")) {
+            p = new ProcessBuilder("CMD", "-c", "ping", "4", "google.com").start()
+        } else {
+            System.out.println("Sistema desconocido");
+        }
         try {
             InputStream is = p.getInputStream();
             int c;
