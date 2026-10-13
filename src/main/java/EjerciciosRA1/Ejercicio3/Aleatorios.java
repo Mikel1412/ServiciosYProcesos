@@ -18,11 +18,12 @@ public class Aleatorios {
 
             pb.redirectError(fErr);
 
-            Process p =pb.start();
+            if(!lineas.equals("fin")) {
+                Process p = pb.start();
 
-            String resul = new String(p.getInputStream().readAllBytes());
-            System.out.println(resul);
-
+                String resul = new String(p.getInputStream().readAllBytes());
+                System.out.println(resul);
+            }
 
         }while(!lineas.equals("fin"));
 

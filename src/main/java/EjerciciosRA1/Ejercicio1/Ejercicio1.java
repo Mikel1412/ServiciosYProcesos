@@ -1,5 +1,7 @@
 package EjerciciosRA1.Ejercicio1;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 
 /*Crea una clase Java que calcule cuántos divisores tiene un número que le
@@ -7,20 +9,29 @@ import java.util.Scanner;
     pantalla.*/
 public class Ejercicio1 {
 
-        static void main(String[] args) {
-            Scanner sc = new Scanner(System.in);
-            int numero;
+    static void main(String[] args) {
 
-            System.out.println("Introduce un numero para saber cuantos divisores tiene");
-            numero = sc.nextInt(); //Pedimos el numero por pantalla
+        if (args.length != 1) {
+            System.out.println("Tienes que introducir un numero");
+        } else {
+            try{
+                int numero = Integer.parseInt(args[0]);
+                int contadorDivisores = 0;
+                List<Integer> listaNumeros = new ArrayList<>();
 
-            int contadorDivisores = 0;
-
-            for (int i = 1; i < numero+1;i++){
-                if( numero % i == 0){
-                    contadorDivisores++; //Contamos cuantos divisores tiene
+                for (int i = 1; i < numero + 1; i++) {
+                    if (numero % i == 0) {
+                        contadorDivisores++; //Contamos cuantos divisores tiene
+                        listaNumeros.add(i);
+                    }
                 }
+                System.out.println("El numero tiene " + contadorDivisores + " divisores");//Devolvemos el resultado por pantalla
+                for (Integer i : listaNumeros){
+                    System.out.print(i);
+                }
+            }catch (NumberFormatException e){
+                System.out.println("Debes de introducir un valor numerico");
             }
-            System.out.println("El numero tiene " + contadorDivisores + " divisores"); //Devolvemos el resultado por pantalla
         }
+    }
 }
